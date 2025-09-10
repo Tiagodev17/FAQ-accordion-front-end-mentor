@@ -1,12 +1,14 @@
-let images = document.querySelectorAll()
+
+
+
 
 
 function clickOne(){
- 
+    let images = document.getElementsByClassName('btn')
     let btnOne = document.getElementById('txtOne')
     
     
-    if(btnOne.style.display == ''){
+    if(btnOne.style.display === 'none'){
         btnOne.style.display = 'block'
     } else{
         btnOne.style.display = 'none'
