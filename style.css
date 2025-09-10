@@ -42,12 +42,14 @@ section{
     gap: 2rem;
     justify-content: center;
 }
-
+.headline{
+    display: flex;
+    
+}
 h1{
     color: var(--color4);
     font-weight: var(--h1);
     font-size: 3rem;
-    width: 50%;
     display: flex;
     justify-content: center;
     
@@ -58,7 +60,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+
 }
 .subTittle{
     font-size: 1.5rem;
@@ -82,5 +84,7 @@ h1{
 }
 .btn{
     cursor: pointer;
+    width: 30px;
+    height: 30px;
     
 }
