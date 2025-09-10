@@ -5,17 +5,18 @@
 
 function clickOne(){
     let image1 = document.getElementById('img1')
-    let image2 = document.querySelectorAll('img2')
+    let image2 = document.getElementById('img2')
     let btnOne = document.getElementById('txtOne')
     
     
-    if(btnOne.style.display == 'none'){
+    if(btnOne.style.display == 'none' && ){
         btnOne.style.display = 'block'
         image1.style.display = 'none'
         
 
     } else{
         btnOne.style.display = 'none'
+        
         
     }
     
