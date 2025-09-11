@@ -9,21 +9,14 @@ function clickOne(){
     let btnOne = document.getElementById('txtOne')
     
     
-    if(btnOne.style.display == 'none'){
-        btnOne.style.display = 'block'
-        image1.style.display = 'none'
-        
-
-    } else{
-        btnOne.style.display = 'none'
-        
-        
-    }
+    btnOne.addEventListener(btnOne.style.display= 'block')
+    image1.addEventListener(image1.style.display ='none')
+    
     
 } function clickTwo(){
     let btnTwo = document.getElementById('txtTwo')
 
-    if(btnTwo.style.display == 'none'){
+    if(btnTwo.style.display == ''){
         btnTwo.style.display = 'block'
     } else{
         btnTwo.style.display = 'none'

@@ -17,6 +17,9 @@ body{
 .wallpaper{
     background-image: url(faq-accordion-main/assets/images/background-pattern-desktop.svg);
     height: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -44,7 +47,6 @@ section{
 }
 .headline{
     display: flex;
-    
 }
 h1{
     color: var(--color4);
@@ -52,7 +54,6 @@ h1{
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    
 }
 .star{
     width: 38px;
@@ -60,15 +61,20 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
+}
+.containerHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px ;
 }
 .subTittle{
     font-size: 1.5rem;
     font-weight: var(--h2);
     color: var(--color4);
     display: flex;
-    padding: 10px 0 10px 0;
-    
+    padding: 10px 0;
+    max-width: 86%;
 }
 .txt{
     font-size: 1rem;
