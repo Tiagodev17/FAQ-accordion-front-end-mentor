@@ -82,6 +82,8 @@ h1{
     color: var(--color3);
     border-bottom: 1px solid rgba(255, 192, 203, 0.154);
     display:none;
+    max-width: 90%;
+    text-align: center;
 }
 
 .subTittle:hover{
