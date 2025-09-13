@@ -10,7 +10,13 @@ function clickOne(){
     
     
     btnOne.addEventListener(btnOne.style.display= 'block')
-    image1.addEventListener(image1.style.display ='none')
+    
+    if(image1.style.display = 'block'){
+        image1.style.display = none
+    } else{
+         image1.addEventListener(image1.style.display ='none')
+    }
+   
     
     
 } function clickTwo(){
