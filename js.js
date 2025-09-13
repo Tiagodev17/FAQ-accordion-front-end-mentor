@@ -9,12 +9,12 @@ function clickOne(){
     let btnOne = document.getElementById('txtOne')
     
     
-    if (btnOne.style.display = 'none' && image1.style.display == 'block'){
-        btnOne.addEventListener(btnOne.style.display= 'none')
+    if (btnOne.style.display = 'none'){
+        btnOne.style.display= 'block'
+        image1.style.display = 'none'
         
     } else {
-        btnOne.addEventListener(btnOne.style.display = 'block')
-        image1.addEventListener(image1.style.display = 'none')
+        btnOne.style.display = 'none'
     }
 
     
@@ -24,9 +24,11 @@ function clickOne(){
     
 } function clickTwo(){
     let btnTwo = document.getElementById('txtTwo')
+    
 
     if(btnTwo.style.display == ''){
-        btnTwo.style.display = 'block'
+        btnTwo.style.display = 'block';
+        
     } else{
         btnTwo.style.display = 'none'
     }
