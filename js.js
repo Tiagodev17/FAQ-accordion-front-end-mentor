@@ -9,13 +9,16 @@ function clickOne(){
     let btnOne = document.getElementById('txtOne')
     
     
-    btnOne.addEventListener(btnOne.style.display= 'block')
-    
-    if(image1.style.display = 'block'){
-        image1.style.display = none
-    } else{
-         image1.addEventListener(image1.style.display ='none')
+    if (btnOne.style.display = 'none' && image1.style.display == 'block'){
+        btnOne.addEventListener(btnOne.style.display= 'none')
+        
+    } else {
+        btnOne.addEventListener(btnOne.style.display = 'block')
+        image1.addEventListener(image1.style.display = 'none')
     }
+
+    
+    
    
     
     
