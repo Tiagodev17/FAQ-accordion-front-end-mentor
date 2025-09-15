@@ -84,7 +84,10 @@ h1{
     align-items: center;
 }
 .btnContents{
-    display: flex;
+    display: inline-flex;
+}
+#img2{
+    display: none;
 }
 .txt{
     font-size: 1rem;

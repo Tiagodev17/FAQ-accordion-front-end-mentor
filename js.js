@@ -1,29 +1,26 @@
-
-
-
-
-
 function clickOne(){
-    let image1 = document.getElementById('img1')
-    let image2 = document.getElementById('img2')
-    let btnOne = document.getElementById('txtOne')
-    
-    
-    
-    
-    if(btnOne.style.display == '' ){
-        btnOne.style.display = 'block'
-        image1.style.display = 'none'
-    } else if ( btnOne.style.display = ''){
-        image2.style.display = 'block'
-    }
 
-    
-    
-   
-    
-    
-} function clickTwo(){
+let img1 = document.getElementById('img1')
+let btnOne = document.getElementById('txtOne')
+
+
+if(btnOne.style.display = 'none'){
+    btnOne.style.display = 'block'
+    img1.src = 'faq-accordion-main/assets/images/icon-minus.svg'
+} else if(btnOne.style.display = 'block'){
+    btnOne.style.display = 'none'
+    img1.src = 'faq-accordion-main/assets/images/icon-plus.svg'
+}
+
+
+}
+
+
+
+
+
+
+function clickTwo(){
     let btnTwo = document.getElementById('txtTwo')
     
 
