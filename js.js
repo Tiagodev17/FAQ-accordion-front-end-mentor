@@ -8,6 +8,7 @@ let btnOne = document.getElementById('txtOne')
 if(btnOne.style.display == ''){
     btnOne.style.display = 'block'
     img1.src = 'faq-accordion-main/assets/images/icon-minus.svg'
+    
 } else{
     btnOne.style.display = ''
     img1.src = 'faq-accordion-main/assets/images/icon-plus.svg'
