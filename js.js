@@ -10,6 +10,7 @@ function clickOne(){
     
     
     
+    
     if(btnOne.style.display == '' ){
         btnOne.style.display = 'block'
         image1.style.display = 'none'
