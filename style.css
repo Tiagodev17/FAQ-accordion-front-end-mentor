@@ -34,16 +34,6 @@ body{
 section{
     margin-top: 8rem;
 }
-.container{
-    background-color: var(--color1);
-    width: 800px;
-    height: 100%;
-    border-radius: 3%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-}
 .headline{
     display: flex;
     padding: 10px 0;
@@ -67,7 +57,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     padding:0 30px ;
-    width: 900px;
+    width: 800px;
     background-color: white;
     border-radius: 10px;
 }
@@ -90,7 +80,7 @@ h1{
     color: var(--color3);
     border-bottom: 1px solid rgba(255, 192, 203, 0.154);
     display:none;
-    max-width: 90%;
+    max-width: 100%;
     padding-bottom: 1rem;
 
 }
