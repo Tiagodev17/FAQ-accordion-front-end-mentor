@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Work Sans';
+    background-color: var(--color2);
+}
+:root{
+    --h1:700;
+    --h2:600;
+    --h3:400;
+
+    --color1:hsl(0, 100%, 100%);
+    --color2:hsl(275, 100%, 97%);
+    --color3:hsl(292, 16%, 49%);
+    --color4:hsl(292, 42%, 14%);
+}
+
+@media screen and (max-width:832px) {
+.container {
+  background-color: var(--color1);
+  width: 730px;
+  height: 700px;
+  border-radius: 3%;
+  top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+
+}
