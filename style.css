@@ -47,6 +47,7 @@ section{
 }
 .headline{
     display: flex;
+    padding: 0 0 30px 30px;
 }
 h1{
     color: var(--color4);
@@ -72,9 +73,13 @@ h1{
     font-size: 1.5rem;
     font-weight: var(--h2);
     color: var(--color4);
-    display: flex;
     padding: 10px 0;
-    max-width: 83%;
+    max-width: 100%;
+}
+.contentTwo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 .txt{
     font-size: 1rem;
@@ -83,7 +88,6 @@ h1{
     border-bottom: 1px solid rgba(255, 192, 203, 0.154);
     display:none;
     max-width: 90%;
-    
 }
 
 .subTittle:hover{
