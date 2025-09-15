@@ -10,8 +10,13 @@ function clickOne(){
     
     
     
-    btnOne.style.display = 'block'
-    
+    if(btnOne.style.display == '' ){
+        btnOne.style.display = 'block'
+        image1.style.display = 'none'
+    } else if ( btnOne.style.display = ''){
+        image2.style.display = 'block'
+    }
+
     
     
    
