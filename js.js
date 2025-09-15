@@ -9,14 +9,9 @@ function clickOne(){
     let btnOne = document.getElementById('txtOne')
     
     
-    if (btnOne.style.display = 'none'){
-        btnOne.style.display= 'block'
-        image1.style.display = 'none'
-        
-    } else {
-        btnOne.style.display = 'none'
-    }
-
+    
+    btnOne.style.display = 'block'
+    
     
     
    

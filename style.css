@@ -68,6 +68,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     padding:30px ;
+    height: 400px;
+    gap: 1rem;
 }
 .subTittle{
     font-size: 1.5rem;
@@ -76,10 +78,13 @@ h1{
     padding: 10px 0;
     max-width: 100%;
 }
-.contentTwo{
+.content{
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+.btnContents{
+    display: flex;
 }
 .txt{
     font-size: 1rem;
