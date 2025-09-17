@@ -57,9 +57,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     padding:0 30px ;
-    width: 800px;
+    width: 700px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 1px 5px 10px  rgba(0, 0, 0, 0.374);
 }
 .subTittle{
     font-size: 1.5rem;
@@ -75,7 +76,7 @@ h1{
 }
 
 .txt{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: var(--h3);
     color: var(--color3);
     border-bottom: 1px solid rgba(255, 192, 203, 0.154);
