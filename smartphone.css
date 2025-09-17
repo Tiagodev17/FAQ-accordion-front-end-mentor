@@ -116,5 +116,15 @@ section {
     padding: 15px 0;
     max-width: 100%;
   }
+    .txt {
+    font-size: 0.8rem;
+    font-weight: var(--h3);
+    color: var(--color3);
+    border-bottom: 1px solid rgba(255, 192, 203, 0.154);
+    display: none;
+    max-width: 100%;
+    font-weight: 500;
+    
+  }
 
 }
